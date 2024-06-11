@@ -1,0 +1,58 @@
+.help{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 400px;
+}
+.help h2{
+    color: black;
+    margin-top: 120px;
+}
+.help .search{
+    width: 700px;
+    height: 70px;
+    background: #F0F2F5;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    margin-bottom: 30px
+}
+.help .search i{
+    font-size: 20px;
+    color: gray;
+}
+.help .search input{
+    border: none;
+    outline: none;
+    padding: 20px;
+    background: #F0F2F5;
+}
+.help .card{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.help .card .card1{
+    width: 280px;
+    height: 280px;
+    background: #F0F2F5;
+    border-radius: 20px;
+}
+.help .card .card1 img{
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.help .card .card1:hover{
+    background: #d6e1f2;
+}
+.help .card .card1 h4, p{
+    padding: 2px 20px;
+}
+.help .card .card1 p{
+    color: gray;
+}

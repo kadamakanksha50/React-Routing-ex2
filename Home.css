@@ -1,0 +1,84 @@
+.content{
+    width: 100%;
+    height: 100vh;
+    background: #FCF5EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 30px;
+}
+.content img{
+    width: 100%;
+    height: 800px;
+    padding: 30px;
+    border-radius: 60px;
+    position: absolute;
+    top: 10%;
+}
+.content h1{
+    color: white;
+    position: absolute;
+    left: 15%;
+    font-size: 65px;
+}
+.content p{
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 63%;
+    font-size: 18px
+}
+.content button{
+    background: #25D366;
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+.content .images{
+    margin-left: 80px;
+}
+.content .images .im{
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content .images .im img{
+    width: 480px;
+    height: 100px;
+}
+.content .images .im1 img{
+    width: 440px;
+    height: 100px;
+    top: 23%;
+}
+.content .images .im2 img{
+    width: 480px;
+    height: 180px;
+    top: 30%;
+}
+.content .images .im3 img{
+    width: 480px;
+    height: 120px;
+    top: 47%;
+}
+.content .images .im4 img{
+    width: 480px;
+    height: 320px;
+    top: 57%;
+}
+.content .images .im5 img{
+    width: 440px;
+    height: 100px;
+    top:92%;
+}
+.content .images .im6 img{
+    width: 480px;
+    height: 120px;
+    top:98%;
+}

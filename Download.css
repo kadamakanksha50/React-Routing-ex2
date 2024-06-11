@@ -1,0 +1,30 @@
+.down{
+    width: 100%;
+    height: 100vh;
+    background: #E6FFDA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.down .head{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+}
+.down .head h1{
+    font-size: 55px;
+    font-weight: 500;
+}
+.down .head .card{
+    width: 400px;
+    height: 350px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.down .head .card img{
+    width: 160px;
+    height: 60px;
+    margin-top: 40px;
+}

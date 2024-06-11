@@ -1,0 +1,36 @@
+.blog{
+    width: 100%;
+    height: 100vh;
+}
+.blog .title{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blog .title h1{
+    font-size: 80px;
+    margin-top: 50px;
+    font-weight: 400;
+    padding: 10px;
+}
+.blog .title p{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.blog .photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blog .photo img{
+    width: 1000px;
+    height: 600px;
+    border-radius: 40px;
+}
+.blog .photo p{
+    padding: 20px 10px;
+}

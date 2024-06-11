@@ -1,0 +1,40 @@
+.privacy1{
+    width: 100%;
+    height: 800px;
+    background: #103928;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.privacy1 .info1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.privacy1 .info1 h1{
+    color: #25D366;
+    font-size: 55px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.privacy1 .info1 p{
+    color: white;
+    padding: 20px 10px;
+}
+.privacy1 .image1 img{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    margin-right: 50px;
+}
+.privacy1 .info1 button{
+    background: #25D366;
+    width: 300px;
+    padding: 20px 10px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    margin-top: 40px;
+}

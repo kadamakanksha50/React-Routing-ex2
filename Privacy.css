@@ -1,0 +1,23 @@
+.privacy{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.privacy .info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.privacy .info h1{
+    color: white;
+    font-size: 75px;
+}
+.privacy .info h1 span{
+    color: #25D366;
+}
+.privacy .info p{
+    color: white;
+}
